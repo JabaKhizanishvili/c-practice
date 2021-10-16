@@ -114,26 +114,3 @@
 //     }
 //     return 0;
 // }
-
-// 1 მილიონზე ნაკლები რომელი რიცხვს აქვს ყველაზე გრძელი მიმდევრობა. ასევე აჩვენეთ რამდენია ამ ჯაჭვის (მიმდევრობის) სიგრძე.
-
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int maxi = 0, maxlen = 1;
-//     for (int i = 2; i <= 1000000; i++)
-//     {
-//         int len = 1;
-//         for (int n = i; n > 1; len++)
-//         {
-//             n = n % 2 ? n * 3 + 1 : n / 2;
-//         }
-//         if (len > maxlen)
-//         {
-//             maxlen = len;
-//             maxi = i;
-//         }
-//     }
-//     cout << maxi << ": " << maxlen << '\n';
-// }
